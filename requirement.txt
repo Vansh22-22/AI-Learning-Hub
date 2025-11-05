@@ -1,0 +1,6 @@
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+    vansh\Scripts\Activate.ps1
+
+pip install streamlit google-generativeai plotly pandas
+streamlit run ai_learning_platform.py
+apikey ="AIzaSyDK9tKVZicUc43wPVEZjZ7_OlI9egnRa_w"
